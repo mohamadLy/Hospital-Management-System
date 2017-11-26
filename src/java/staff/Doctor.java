@@ -9,6 +9,7 @@ package staff;
  *
  * @author mly083
  */
-public class Doctor {
+public class Doctor extends StaffMember {
+    
     
 }
