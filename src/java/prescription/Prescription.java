@@ -11,11 +11,11 @@ package prescription;
  */
 public class Prescription {
     // adm == administration
-    String drugNumber, drugName;
-    double unitsPerDay;
-    int admPerDay;
-    String admMethod;
-    String startDate, endDate;
+    private String drugNumber, drugName;
+    private double unitsPerDay;
+    private int admPerDay;
+    private String admMethod;
+    private String startDate, endDate;
     
     public Prescription(){
         

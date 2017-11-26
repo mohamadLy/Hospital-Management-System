@@ -14,7 +14,7 @@ import utils.RelationshipType;
  * @author mly083
  */
 public class NextOfKin extends Person {
-    RelationshipType relationship;
+    private RelationshipType relationship;
     
     public NextOfKin(){
         

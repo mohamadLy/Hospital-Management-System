@@ -12,9 +12,9 @@ import utils.Person;
  * @author mly083
  */
 public class Patient extends Person {
-    String insuranceNumber;
-    String extDocID;
-    String localDocID;
+    private String insuranceNumber;
+    private String extDocID;
+    private String localDocID;
     
     public Patient(){
         
