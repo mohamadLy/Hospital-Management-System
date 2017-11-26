@@ -5,10 +5,27 @@
  */
 package patient;
 
+import utils.Person;
+import utils.RelationshipType;
+
+
 /**
  *
  * @author mly083
  */
-public class NextOfKin {
+public class NextOfKin extends Person {
+    RelationshipType relationship;
+    
+    public NextOfKin(){
+        
+    }
+
+    public RelationshipType getRelationship() {
+        return relationship;
+    }
+
+    public void setRelationship(RelationshipType relationship) {
+        this.relationship = relationship;
+    }
     
 }

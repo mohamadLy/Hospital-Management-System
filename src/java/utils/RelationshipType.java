@@ -9,6 +9,10 @@ package utils;
  *
  * @author Marc
  */
-public class RelationshipType {
-    
+public enum RelationshipType {
+    SPOUSE,
+    CHILD,
+    PARENT,
+    SIBLING,
+    OTHER; 
 }
