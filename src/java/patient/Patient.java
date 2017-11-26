@@ -5,6 +5,11 @@
  */
 package patient;
 
+import division.Room;
+import java.util.List;
+import prescription.Prescription;
+import staff.Doctor;
+import utils.Address;
 import utils.Person;
 
 /**
@@ -15,9 +20,15 @@ public class Patient extends Person {
     private String insuranceNumber;
     private String extDocID;
     private String localDocID;
+    private List<Prescription> prescriptions;
+    private NextOfKin nextOfKin;
+    private Address address;
+    private Room room;
+    private Doctor doctor;
     
     public Patient(){
-        
+        // As person need to have address as soon as it is created
+        address = new Address();
     }
 
     public String getInsuranceNumber() {
