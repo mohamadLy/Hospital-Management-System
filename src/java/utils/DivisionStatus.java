@@ -3,12 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package patient;
+package utils;
 
 /**
  *
  * @author mly083
  */
-public class Address {
-    
+public enum DivisionStatus {
+    COMPLETE,
+    IMCOMPLETE
 }
