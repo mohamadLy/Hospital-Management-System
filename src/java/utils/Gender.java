@@ -10,5 +10,6 @@ package utils;
  * @author mly083
  */
 public enum Gender {
-    
+    MALE,
+    FEMALE
 }
