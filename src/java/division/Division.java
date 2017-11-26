@@ -5,6 +5,8 @@
  */
 package division;
 
+import java.util.List;
+import staff.ChargedNurse;
 import utils.DivisionStatus;
 
 /**
@@ -18,6 +20,8 @@ public class Division {
     private int numberOfBed;
     private String telephoneExtension;
     private DivisionStatus status;
+    private List<Division> division;
+    private ChargedNurse chardedNurse;
 
     public Division() {}
     
