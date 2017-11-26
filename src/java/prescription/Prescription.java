@@ -15,7 +15,8 @@ public class Prescription {
     private double unitsPerDay;
     private int admPerDay;
     private String admMethod;
-    private String startDate, endDate;
+    private String startDate;
+    private String endDate;
     
     public Prescription(){
         

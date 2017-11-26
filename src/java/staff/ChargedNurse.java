@@ -5,6 +5,9 @@
  */
 package staff;
 
+import division.Division;
+import java.util.List;
+
 /**
  *
  * @author mly083
@@ -12,6 +15,7 @@ package staff;
 public class ChargedNurse extends StaffMember{
     private String telephoneExtension;
     private String beeperExt;
+    private List<Division> division;
     
     public ChargedNurse() {}
 
