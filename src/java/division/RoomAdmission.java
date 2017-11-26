@@ -10,5 +10,26 @@ package division;
  * @author mly083
  */
 public class RoomAdmission {
+    private int roomNumber;
+    private int bedNumber;
+    
+    public RoomAdmission() {}
+
+    public int getRoomNumber() {
+        return roomNumber;
+    }
+
+    public void setRoomNumber(int roomNumber) {
+        this.roomNumber = roomNumber;
+    }
+
+    public int getBedNumber() {
+        return bedNumber;
+    }
+
+    public void setBedNumber(int bedNumber) {
+        this.bedNumber = bedNumber;
+    }
+    
     
 }
