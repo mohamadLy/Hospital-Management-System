@@ -19,7 +19,9 @@ public class Person {
     private Gender gender;
     private MartialStatus martialStatus;
 
-    public Person() {}
+    public Person() {
+    
+    }
     
     
     public String getFirstName() {

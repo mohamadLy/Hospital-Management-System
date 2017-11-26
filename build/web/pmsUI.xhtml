@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+<ui:composition>
+    <f:view>
+        <h:form>
+        <h:panelGrid columns="4">
+            <h:button outcome="registerStaffUI" value="New Staff" />
+            <h:button outcome="registerPatientUI" value="New Patient" />
+            <h:button outcome="consultPatientUI" value="Consult Patient" />
+            <h:commandButton value="Log Out" />
+            <!-- TODO: Ajoute action="____"  a commandButton de Log out pour relier la logique-->
+        </h:panelGrid>
+            </h:form>
+    </f:view>
+</ui:composition>
+</html>
+
